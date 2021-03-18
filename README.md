@@ -1,6 +1,6 @@
 #*Rethink DATABASE DOCS*
 Rethinkdb is an open source database.
-<img src="rethink.png" width ="800" height ="500"/>
+<img src="rethink.png" width ="400" height ="200"/>
 
 -The best thing about the rethinkdb is that it always keeps  connect the backend to the database to exchange of information as soon as you will update anything in databsee it will automartically and immediately will be shown on frontend with no delay 
 
