@@ -39,6 +39,6 @@ Now GUI interface of rethink dtabase has been started at port *8080* to head to 
 ## To use rethink database with python follow steps listed below on unbuntu
 install the dependencies  *pip install rethinkdb*
 
-And for the code expalanation to my <a href "https://github.com/Mrdynamic-soni/Rethink-database-docs/blob/master/rethink.png">*rethink.py*</a> file
+And for the code expalanation to my <a href ="https://github.com/Mrdynamic-soni/Rethink-database-docs/blob/master/rethink.png">*rethink.py*</a> file
 
 ## One importanr thing to remeber is that you have to create databae via GUI then connect that database
