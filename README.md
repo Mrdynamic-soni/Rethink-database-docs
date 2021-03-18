@@ -18,23 +18,27 @@ Or follow <a href = "https://rethinkdb.com/docs/install/windows/#:~:text=Running
 ## *FOR UBUNTU*
 To get started rethink databsase with ubuntu follow below listed steps 
 
-To install the server, you have to add the RethinkDB repository to your list of repositories and install via apt-get. To do this, paste the following lines into your terminal:
-*source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
+To install the server, you have to add the RethinkDB repository to your list of repositories and install via apt-get. To do this, 
+paste the following lines into your terminal:
+
+### *source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
 wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install rethinkdb*
 
 
-### after installing rethink databse in ubuntu you need to start rethik databse 
+## After installing rethink databse in ubuntu you need to start rethik databse 
 
-rethink databse provides a GUI interface to perform all the actions
+### Rethink databse provides a GUI interface to perform all the actions
 
 To start GUI interface of rethink database 
 just after installing rethink datbase  type code #rethinkdb
 It will ask you to bind all the connections so just type  #rethinkdb --bind all
 Now GUI interface of rethink dtabase has been started at port *8080* to head to that go to browser type *localhost/808* on searchbasr  you are ready to create databse with rethibkdb GUI
 
-##To use rethink database with python follow steps listed below on unbuntu
+## To use rethink database with python follow steps listed below on unbuntu
 install the dependencies  *pip install rethinkdb*
 
-And for the code expalanation to my *rethink.py* file
+And for the code expalanation to my <a href "https://github.com/Mrdynamic-soni/Rethink-database-docs/blob/master/rethink.png">*rethink.py*</a> file
+
+## One importanr thing to remeber is that you have to create databae via GUI then connect that database
