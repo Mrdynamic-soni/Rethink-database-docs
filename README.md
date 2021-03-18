@@ -21,10 +21,9 @@ To get started rethink databsase with ubuntu follow below listed steps
 To install the server, you have to add the RethinkDB repository to your list of repositories and install via apt-get. To do this, 
 paste the following lines into your terminal:
 
-### *source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
-wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install rethinkdb*
+### *source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list*
+*wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | sudo apt-key add -sudo apt-get update*
+*sudo apt-get install rethinkdb*
 
 
 ## After installing rethink databse in ubuntu you need to start rethik databse 
