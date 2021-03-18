@@ -9,7 +9,7 @@ RethinkDB is the first open-source, scalable JSON database built from the ground
 
 In addition to being designed from the ground up for realtime apps, RethinkDB offers a flexible query language, intuitive operations and monitoring APIs, and is easy to setup and learn.
 
-## ere aree some steps to follow to start using rethink database 
+## Here are some steps to follow to start using rethink database 
 
 ## *FOR WINDOWS*
 To get started rethink database with windows you need to first dockerise your windows <a href = "https://blog.sixeyed.com/how-to-dockerize-windows-applications/">HOW TO DOCKERISE</a>
