@@ -15,13 +15,13 @@ In addition to being designed from the ground up for realtime apps, RethinkDB of
 To get started rethink database with windows you need to first dockerise your windows <a href = "https://blog.sixeyed.com/how-to-dockerize-windows-applications/">HOW TO DOCKERISE</a>
 Or follow <a href = "https://rethinkdb.com/docs/install/windows/#:~:text=Running%20RethinkDB&text=You'll%20need%20to%20start%20the%20Windows%20command%20shell.&text=Use%20the%20cd%20command%20to,you%20unpacked%20rethinkdb.exe%20in.&text=Then%2C%20you%20can%20start%20RethinkDB%20with%20its%20default%20options.&text=You%20can%20also%20use%20any,as%20specify%20a%20configuration%20file).">these steps</a> for complete guidelines
 
-## * FOR UBUNTU   *
+## *FOR UBUNTU*
 To get started rethink databsase with ubuntu follow below listed steps 
 
 To install the server, you have to add the RethinkDB repository to your list of repositories and install via apt-get. To do this, 
 paste the following lines into your terminal:
 
-### * source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
+### *source /etc/lsb-release && echo "deb https://download.rethinkdb.com/repository/ubuntu-$DISTRIB_CODENAME $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
 wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install rethinkdb*
