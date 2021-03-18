@@ -26,7 +26,7 @@ paste the following lines into your terminal:
 *sudo apt-get install rethinkdb*
 
 
-## After installing rethink databse in ubuntu you need to start rethik databse 
+## After installing rethink databse in ubuntu you need to start rethink databse 
 
 ### Rethink databse provides a GUI interface to perform all the actions
 
@@ -40,4 +40,4 @@ install the dependencies  *pip install rethinkdb*
 
 And for the code expalanation to my <a href ="https://github.com/Mrdynamic-soni/Rethink-database-docs/blob/master/rethink.png">*rethink.py*</a> file
 
-## One importanr thing to remeber is that you have to create databae via GUI then connect that database
+## One important thing to remember is that you have to create database via GUI then connect that database using python rethink databse connector
