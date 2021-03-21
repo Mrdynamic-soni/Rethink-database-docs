@@ -29,7 +29,7 @@ paste the following lines into your terminal:
 
 ## After installing rethink databse in ubuntu you need to start rethink databse GUI
 
-### Rethink databse provides a GUI interface to perform all the actions
+### Rethink database provides a GUI interface to perform all the actions
 
 To start GUI interface of rethink database 
 just after installing rethink datbase  type code # rethinkdb
